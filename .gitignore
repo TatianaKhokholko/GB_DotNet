@@ -1,0 +1,20 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# production
+/**/build
+/dist
+.parcel-cache
+
+# IDE exclusion
+/.vscode
+/.idea
+*.code-workspace
+
+# EditorConfig file
+.editorconfig
+
+# Localhost SSL
+.localhost-ssl
+
+/web/.idea/
+/package-lock.json
