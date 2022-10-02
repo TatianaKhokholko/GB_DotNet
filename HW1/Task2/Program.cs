@@ -9,7 +9,7 @@ public static class Program
     public static void Main()
     {
         try{
-            Console.WriteLine("Input three (or more as you wish!) numbers (example 1,1,1)\n ");
+            Console.WriteLine("Input three (or more as you wish!) numbers (example 1,2,3)\n ");
             string? inputValue = Console.ReadLine();
             int[] numbers = inputValue.Split(' ', ',', ';').Select(int.Parse).ToArray();
             
@@ -19,7 +19,7 @@ public static class Program
                     maxNumber = numbers[i];
                     }
                     }
-                    Console.WriteLine("Max number is =" + maxNumber);
+                    Console.WriteLine("Max number is = " + maxNumber);
                     } catch (FormatException e){
                         Console.WriteLine("What else do you want to input?!\n" + e);
                         }

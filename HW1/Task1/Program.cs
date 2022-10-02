@@ -16,11 +16,11 @@ public static class Program
              int secondNumber = int.Parse(Console.ReadLine());
              
              if(firstNumber > secondNumber){
-                Console.WriteLine($"First number {firstNumber} bigger than second number {secondNumber}");
+                Console.WriteLine($"First number = {firstNumber} bigger than second number = {secondNumber}");
                 } else if(firstNumber < secondNumber){
-                    Console.WriteLine($"Second number {secondNumber} bigger than  first number {firstNumber}");
+                    Console.WriteLine($"Second number = {secondNumber} bigger than  first number = {firstNumber}");
                     } else {
-                        Console.WriteLine($"Maybe first number {firstNumber} = {secondNumber} =)");
+                        Console.WriteLine($"Maybe first number {firstNumber} = second number {secondNumber}");
                         }
                     } catch (FormatException e){
                         Console.WriteLine("Oh NO! I don't know how use it!\n" + e);
