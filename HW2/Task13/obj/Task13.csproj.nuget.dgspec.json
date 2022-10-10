@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\Task13\\Task13.csproj": {}
+    "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\task13\\Task13.csproj": {}
   },
   "projects": {
-    "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\Task13\\Task13.csproj": {
+    "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\task13\\Task13.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\Task13\\Task13.csproj",
+        "projectUniqueName": "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\task13\\Task13.csproj",
         "projectName": "Task13",
-        "projectPath": "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\Task13\\Task13.csproj",
+        "projectPath": "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\task13\\Task13.csproj",
         "packagesPath": "C:\\Users\\Tatia\\.nuget\\packages\\",
-        "outputPath": "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\Task13\\obj\\",
+        "outputPath": "C:\\LEARN\\GeekBrains\\4_c#\\HW2\\task13\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tatia\\AppData\\Roaming\\NuGet\\NuGet.Config"

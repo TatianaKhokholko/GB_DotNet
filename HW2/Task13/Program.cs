@@ -25,11 +25,11 @@ public static class Programm
         }
         else if (inputNumber < 100)
         {
-            Console.WriteLine("The third value is absent");
+            Console.WriteLine($"The number {inputNumber} is not three-digit. The third value is absent!");
         }
         else
         {
-            Console.WriteLine($"The number is not three-digit\n But third value is {inputNumber.ToString()[2]}");
+            Console.WriteLine($"The number {inputNumber} is not three-digit\nBut third value is {inputNumber.ToString()[2]}");
         }
     }
 }
