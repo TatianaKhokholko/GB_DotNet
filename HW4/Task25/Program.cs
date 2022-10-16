@@ -16,7 +16,9 @@ public static class Program
     private static int CustomPowForNumber()
     {
         int numberA = Terms("Input number A");
+        CheckInputValue(numberA);
         int numberB = Terms("Input number B - natural pow of A");
+        CheckInputValue(numberB);
         int resultPow = 1;
 
         for (int i = 1; i <= numberB; i++)
@@ -32,5 +34,14 @@ public static class Program
         Console.WriteLine(message);
         int value = int.Parse(Console.ReadLine());
         return value;
+    }
+
+      private static void CheckInputValue(int number)
+    {
+        if (number <= 0) {
+            Console.WriteLine("Need a number greater than 0!");
+            Environment.Exit(0);
+         }
+        else{}
     }
 }

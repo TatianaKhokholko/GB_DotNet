@@ -22,10 +22,9 @@ public static class Program
 
         for (int i = 0; i < inputNumber.Length; i++)
         {
-            progressStep = digits - digits %10;
+            progressStep = digits - digits % 10;
             sumResult += (digits - progressStep);
             digits /= 10;
-            Console.WriteLine(digits);
         }
         Console.WriteLine($"\nSum all digits of number {inputNumber} = {sumResult}");
         return sumResult;
