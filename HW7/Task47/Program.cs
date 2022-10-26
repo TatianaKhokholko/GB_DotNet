@@ -15,7 +15,7 @@ public static class Program
     {
         int m = Terms("Enter the count strings:\t");
         int n = Terms("Enter the count columns:\t");
-        int[,] array = CreateArray(m, n);
+        double[,] array = CreateArray(m, n);
         PrintArray(array);
     }
 
@@ -26,26 +26,26 @@ public static class Program
         return number;
     }
 
-    private static int[,] CreateArray(int countRows, int countColumns)
+    private static double[,] CreateArray(int countRows, int countColumns)
     {
-        int[, ] createdArray = new int[countRows, countColumns];
+        double[,] createdArray = new double[countRows, countColumns];
         for (int row = 0; row < countRows; row++)
         {
             for (int column = 0; column < countColumns; column++)
             {
-                createdArray[row, column] = new Random().Next(-10, 10);
+                createdArray[row, column] = new Random().NextDouble() * (10 - 1) + 1;
             }
         }
         return createdArray;
     }
 
-    private static void PrintArray(int[,] array)
+    private static void PrintArray(double[,] array)
     {
         for (int row = 0; row < array.GetLength(0); row++)
         {
             for (int column = 0; column < array.GetLength(1); column++)
             {
-                Console.Write(String.Format("{0,4}", array[row, column]));
+                Console.Write(String.Format("{0,6}", Math.Round(array[row, column], 2)));
             }
             Console.WriteLine();
         }
