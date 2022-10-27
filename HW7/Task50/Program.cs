@@ -53,7 +53,6 @@ public static class Program
     {
         if (array[rowPosition, columnPosition] != 0)
         {
-
             Console.WriteLine($"{rowPosition} {columnPosition} -> {array[rowPosition, columnPosition]}");
         }
     }
